@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap');
+
+html {
+    font-family: 'Alexandria', sans-serif;
+    
+}
+
+
+body {
+    background-color:#232322;
+    margin:0;
+    padding:0;
+    min-width:320px;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+:root {
+    --main-grid-color: #000000;
+    --font-size:1.5em;
+    --button--color:#dc0510;
+  }
+
+.sign-in {
+    background-color:var(--button--color);
+    padding:14px 12px;
+}
+button {
+    background-color: var(--button--color);
+    color:white;
+    padding:20px 40px;
+    border-radius:3px;
+    border-style:none;
+    font-size:0.8em;
+  }
+select {
+    background-color:transparent;
+    padding:8px 5px;
+    border-radius:3px;
+    border-color:white;
+    color:white;
+    margin-right:20px;
+}
+input[type="email"] {
+    width:400px;
+    height:58px;
+    padding-left:10px;
+    margin-right:-3px;
+    font-size:0.8em;
+    
+}
+input::placeholder {
+   text-align:left;
+   
+}
+
+
+.grid-wrapper {
+    display:grid;
+    grid-column: 1;
+    color:white;
+    gap:5px;    
+    text-align:center;
+    
+    
+    
+}
+
+
+.grid-item-1 {
+    background-image:url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/76fd5dae-5e2b-48e2-b039-83e9f49d54fa/PL-pl-20221128-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-shadow: inset 5px -5px 200px 130px #000000;
+    padding-bottom:200px;
+    
+    
+}
+
+
+.nav {
+    display:flex;
+    justify-content: space-between;
+    padding:40px;
+}
+
+.nav>img {
+    height:50px;
+}
+
+
+.central{
+    font-size:var(--font-size);
+    
+    
+    
+}
+.central-text{
+    max-width:620px;
+    margin:auto;
+}
+.central>p {
+    font-size:0.7em;
+}
+
+.about>ul {
+    list-style-type:none;
+    display:inline-block;
+}
+
+a {
+    text-decoration:none;
+    color:grey;
+
+}
+a:visited {
+    color:grey;
+}
+a:hover {
+    color:rgb(187, 184, 184)
+}
+a:active {
+    color:grey;
+}
+
+.grid-item-2 {
+    background-color:var(--main-grid-color);
+    font-size:var(--font-size);
+    display:flex;
+    justify-content:center;
+    min-height:350px;
+    
+}
+
+.grid-2-text {
+    max-width:400px;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+}
+
+
+.grid-2-img {
+    
+    margin-top:auto;
+    margin-bottom: auto;
+    position: relative;
+    z-index:1;
+    
+    
+}
+.grid-2-img > img {
+    height:300px;
+    
+}
+
+.grid-2-video {
+    height:166px;
+    position:absolute;
+    top:32px;
+    left:24px;
+    z-index:-1;
+    
+}
+
+.grid-item-3 {
+    background-color:var(--main-grid-color);
+    display:flex;
+    justify-content:center;
+    min-height:350px;
+}
+
+.grid-item-3 > img {
+    height:300px;
+    margin-top:auto;
+    margin-bottom: auto;
+}
+
+.grid-3-text {
+    max-width:400px;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+}
+.grid-item-4 {
+    background-color:var(--main-grid-color);
+    display:flex;
+    justify-content:center;
+    padding:40px;
+    min-height:350px;
+    
+}
+
+.grid-4-text {
+    max-width:400px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+
+.grid-4-img {
+    position: relative;
+}
+
+.grid-4-img > img {
+    
+    height:300px;
+    z-index:2;
+    
+}
+
+.grid-4-video {
+    position:absolute;
+    z-index:-1;
+    top:40px;
+    height:200px;
+}
+
+
+.grid-item-5 {
+    background-color:var(--main-grid-color);
+    display:flex;
+    justify-content:center;
+    padding:40px;
+}
+.grid-5-text {
+    max-width:400px;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.grid-item-5 > img {
+    height: 300px;
+}
+.grid-item-6 {
+    background-color:var(--main-grid-color);
+}
+.grid-item-7 {
+    background-color:var(--main-grid-color);
+}
+
+.about {
+    
+    
+}
+
+li {
+    
+}
+ul {
+    text-align:start;
+    
+}
